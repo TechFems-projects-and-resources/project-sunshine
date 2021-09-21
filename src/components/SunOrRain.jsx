@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 
 const SunOrRain = () => {
-  const [weather, setWeather] = useState("sun")
+  const [sun, setSun] = useState(true)
 
 const handleClick = () => {
-  if (weather === "sun") {
-    setWeather("rain")
+  if (sun === true) {
+    setSun(false)
     console.log("rain");
   }
-  if (weather === "rain") {
-    setWeather("sun")
+  if (sun === false) {
+    setSun(true)
     console.log("sun");
   }
 }
@@ -17,6 +17,7 @@ const handleClick = () => {
   return ( 
     <div>
       <h1>Sunny or not?</h1>
+      <div className={sun === true ? "sun-image" : "rain-image"}></div>
       <button onClick={handleClick}>Click me!</button>
     </div>
    );

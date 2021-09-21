@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sun-image {
+  background-image: url("./images/sun-image.svg");
+  max-width: 40%;
+}
+
+.rain-image {
+  background-image: url("./images/rain-image.svg");
+  max-width: 40%;
+}
