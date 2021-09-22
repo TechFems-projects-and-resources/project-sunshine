@@ -13,12 +13,17 @@ code {
     monospace;
 }
 
+.background-image {
+  max-width: 200px;
+  margin-bottom: 15px;
+}
+
 .sun-image {
-  background-image: url("./images/sun-image.svg");
-  max-width: 40%;
+  background-color: red;
+  background-image: url("sun-image.svg");
 }
 
 .rain-image {
-  background-image: url("./images/rain-image.svg");
-  max-width: 40%;
+  background-color: blue;
+  /* background-image: url("./rain-image.svg"); */
 }
