@@ -18,12 +18,12 @@ code {
   margin-bottom: 15px;
 }
 
-.sun-image {
+#sun-image {
   background-color: red;
   background-image: url("sun-image.svg");
 }
 
-.rain-image {
+#rain-image {
   background-color: blue;
-  /* background-image: url("./rain-image.svg"); */
+  background-image: url("./rain-image.svg");
 }

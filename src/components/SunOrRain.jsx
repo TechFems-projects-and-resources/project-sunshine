@@ -18,7 +18,7 @@ const SunOrRain = () => {
     <div>
       <h1>Sunny or not?</h1>
       <div className="background-image">
-        <img src={image} alt="weather" />
+        <img id={image} alt="weather" />
       </div>
       <button onClick={handleClick}>Click me!</button>
     </div>
