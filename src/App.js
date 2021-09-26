@@ -1,4 +1,3 @@
-import './App.css';
 import SunOrRain from './components/SunOrRain';
 
 function App() {

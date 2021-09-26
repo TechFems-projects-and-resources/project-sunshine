@@ -15,12 +15,20 @@ const SunOrRain = () => {
   };
 
   return (
-    <div>
-      <h1>Sunny or not?</h1>
-      <div className="background-image">
-        <img id={image} alt="weather" />
+    <div className="container">
+      <div className="title">
+        <h1>Sunny or not?</h1>
       </div>
-      <button onClick={handleClick}>Click me!</button>
+      <div
+        className={`background-image ${
+          image === "rain-image" ? "rain-image" : "sun-image"
+        }`} alt="weather" 
+      >
+        <img className={image} alt="" />
+      </div>
+      <div>
+        <button className="button" onClick={handleClick}>Click me!</button>
+      </div>
     </div>
   );
 };
