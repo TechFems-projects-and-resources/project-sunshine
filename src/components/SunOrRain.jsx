@@ -19,16 +19,20 @@ const SunOrRain = () => {
       <div className="title">
         <h1>Sunny or not?</h1>
       </div>
+      <div>
+        <button className="button" onClick={handleClick}>
+          Click me!
+        </button>
+      </div>
       <div
         className={`background-image ${
           image === "rain-image" ? "rain-image" : "sun-image"
-        }`} alt="weather" 
+        }`}
+        alt="weather"
       >
         <img className={image} alt="" />
       </div>
-      <div>
-        <button className="button" onClick={handleClick}>Click me!</button>
-      </div>
+      <div></div>
     </div>
   );
 };
