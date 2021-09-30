@@ -32,7 +32,6 @@ const SunOrRain = () => {
       >
         <img className={image} alt="" />
       </div>
-      <div></div>
     </div>
   );
 };
