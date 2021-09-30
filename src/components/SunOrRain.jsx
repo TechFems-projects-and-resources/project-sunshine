@@ -25,7 +25,7 @@ const SunOrRain = () => {
         </button>
       </div>
       <div className="image-container">
-        <img src={`./../${image}.png`} alt="weather" />
+        <img src={`../images/${image}.png`} alt="weather" />
       </div>
     </div>
   );
