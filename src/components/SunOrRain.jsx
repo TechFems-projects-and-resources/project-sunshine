@@ -24,13 +24,8 @@ const SunOrRain = () => {
           Click me!
         </button>
       </div>
-      <div
-        className={`background-image ${
-          image === "rain-image" ? "rain-image" : "sun-image"
-        }`}
-        alt="weather"
-      >
-        <img className={image} alt="" />
+      <div className="image-container">
+        <img src={`./${image}.png`} alt="" />
       </div>
     </div>
   );
