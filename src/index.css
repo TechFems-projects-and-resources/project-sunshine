@@ -41,5 +41,6 @@ img {
   color: rgb(250, 249, 244);
   background-color: rgb(97, 3, 247);
   padding: 10px;
+  border: rgb(97, 3, 247);
   border-radius: 40px;
 }
